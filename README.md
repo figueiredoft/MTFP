@@ -1,8 +1,8 @@
 # instancesMTFP
+
 Instances - Multiple Formation Team Problem (MTFP)
 
-
-The instances are divided into 9 classes, according to the values ​​chosen for the following parameters: number of projects, number of available individuals, number of skills, minimum time allocation fraction allowed.
+The instances are grouped into 9 classes according to the configurations of the following parameters: number of projects, number of available individuals, number of skills, time allocation fraction allowed.
 
 Class 1 - Project = 2; Individuals = 25; Skills = 10; Time Allocation Fractions = {0; 1}.
 
@@ -22,9 +22,7 @@ Class 8 - Project = 5; Individuals = 50; Skills = 5 Time Allocation Fractions = 
 
 Class 9 - Project = 10; Individuals = 100; Skills = 10 Time Allocation Fractions = {0; 0.25; 0.5; 0.75; 1}.
 
-The classes are grouped in folders related to the number of vertices of the graphs: 25, 50 and 100 vertices.
-
-Each folder is named by the cardinality of the vertex of the graphics representing social networks: synthetics, epinions and bitcoin OCT. Example: a folder called 50Vertices has 3  synthetic graphs, 3 graphs generated with a dataset from the social network Epinions and 3 graphs generated with a dataset from the social network Bitcoin OCT, totaling 9 graphs with 50 vertices each. In addition, there are three folders: referring to classes 2, 5 and 8. Each respective folder of each class has 6 folders, one for each instance. Each instance consists of 4 files:
+Thus, there are 3 named folders with the number of vertices (individuals) of the graphs that representing the social networks: 25, 50 and 100 vertices. Example: a folder called 50Vertices has 3  synthetic graphs, 3 graphs using dataset social network Epinions and 3 graphs using dataset social network Bitcoin OCT. Totaling 9 graphs with 50 vertices. In addition, there are three folders: referring to classes 2, 5 and 8. Each folder class has 6 folders, one for each instance configuration. Each instance configuration consists of 4 files:
 
 D.txt (set of individual's allowed time allocation fractions)
 
@@ -34,4 +32,4 @@ S.txt (sociometric matrix)
 
 K.txt (skills / individuals)
 
-In this way, as in each folder related to the number of vertices of the graphs there are 3 classes with 6 instances, there are 18 different configurations to combine with 9 different graphs, generating a total of 162 instances for each type of cardinality of vertices (25, 50, 100). Then, there are a total of 486 instances for MTFP.
+In this way, as in each folder related to the number of vertices of the graphs there are 3 classes with 6 instances. Therefore, there are 18 different configurations to combine with 9 different graphs, for each type of cardinality of vertices (25, 50, 100), generating a total of 486 instances for MTFP.
