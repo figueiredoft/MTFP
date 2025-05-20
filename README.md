@@ -1,4 +1,4 @@
-# instances MTFP and MMTFP
+# instances: MTFP and MMTFP
 
 Instances - Multiple Formation Team Problem (MTFP)
 
@@ -34,6 +34,5 @@ K.txt (skills / individuals)
 
 In this way, as in each folder related to the number of vertices of the graphs there are 3 classes with 6 instances. Therefore, there are 18 different configurations to combine with 9 different graphs, for each type of cardinality of vertices (25, 50, 100), generating a total of 486 instances for MTFP.
 
-Instances - Multiple Formation Team Problem with Multiple Skills (MMTFP)
-
+Instances - Multi-Skills Multiple Formation Team Problem (MMTFP) 
 
