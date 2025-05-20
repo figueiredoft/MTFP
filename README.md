@@ -1,4 +1,4 @@
-# instances: MTFP and MMTFP
+# Instances - Multiple Formation Team Problem (MTFP) and Multi-Skills Multiple Formation Team Problem (MMTFP)
 
 Instances - Multiple Formation Team Problem (MTFP)
 
